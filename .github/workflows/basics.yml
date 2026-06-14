@@ -16,3 +16,8 @@ jobs:
 
       - name: Print Greet
         run: echo "Good Morning DNK Skills"
+
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - run: ls -la
