@@ -1,0 +1,12 @@
+name: Schedule
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greet Message
+        run: echo "Hello from DNK Skills"
